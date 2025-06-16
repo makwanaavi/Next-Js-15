@@ -15,7 +15,7 @@ const Services = async () => {
           <div className="grid grid-cols-3 gap-8">
             {/* <!-- Team Member 1 --> */}
             <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
-              <div className="w-24 h-24 bg-blue-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-24 h-24 bg-blue-200 rounded-full  mx-auto mb-4 flex items-center justify-center">
                 <Image
                   src="/thapa.jpg"
                   width={500} 
@@ -37,15 +37,15 @@ const Services = async () => {
 
             {/* <!-- Team Member 2 --> */}
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
-              <div className="w-full h-full relative bg-purple-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-full h-full  bg-purple-200 rounded-full mx-auto mb-4 flex items-center justify-center relative">
                 <Image
                   src={thapa}
                   alt="thapa technical"
                   fill={true}
-                  quality={100}
+                  quality={75}
                   priority={false}
                   placeholder="blur"
-                  blurDataURL=""
+                  loading="lazy"
                 />
               </div>
             </div>
