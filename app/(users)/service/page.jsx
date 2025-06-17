@@ -2,6 +2,18 @@ import Image from "next/image";
 import style from "./service.module.css";
 import thapa from "@/public/thapa.jpg";
 
+export const metadata = {
+  title: "My Services",
+  description: "Learn Next.js SEO Metadata",
+  authors: [
+    {
+      name: "Avi Makwana",
+      url: "https://yourwebsite.com/about",
+    },
+  ],
+  creator: "Avi Makwana", // optional, like 'by Avi Makwana'
+};
+
 const Services = async () => {
   return (
     <>
