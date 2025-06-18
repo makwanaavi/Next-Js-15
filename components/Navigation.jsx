@@ -18,6 +18,12 @@ export default function Navigation() {
           <li>
             <Link href="/contact">Contact</Link>
           </li>
+            <li>
+            <Link href="/client">Client</Link>
+          </li>
+            <li>
+            <Link href="/server">Server</Link>
+          </li>
         </ul>
       </nav>
     </header>
