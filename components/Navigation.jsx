@@ -24,6 +24,9 @@ export default function Navigation() {
             <li>
             <Link href="/server">Server</Link>
           </li>
+            <li>
+            <Link href="/products">Products</Link>
+          </li>
         </ul>
       </nav>
     </header>
